@@ -1,0 +1,13 @@
+diff --git a/readthedocs/builds/static/builds/css/detail.css b/readthedocs/builds/static/builds/css/detail.css
+index 53442c7..deccbb7 100644
+--- a/readthedocs/builds/static/builds/css/detail.css
++++ b/readthedocs/builds/static/builds/css/detail.css
+@@ -110,7 +110,7 @@ div.build-command div.build-command-output {
+ div.build-command div.build-command-run > span,
+ div.build-command div.build-command-output > span {
+     display: block;
+-    margin-bottom: -16px;
++    /*margin-bottom: -16px;*/
+     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+     white-space: pre;
+     overflow-x: scroll;

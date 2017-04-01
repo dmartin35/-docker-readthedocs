@@ -1,0 +1,10 @@
+/var/log/nginx/*.log {
+    missingok
+    rotate 10
+    maxage 7
+    compress
+    nodelaycompress
+    daily
+    notifempty
+    copytruncate
+}
