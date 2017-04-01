@@ -12,9 +12,9 @@ Run the server
 
 To run the docker image and launch the RTD web server, execute ``make run`` or ``make  start`` (to run in detached mode)
 
-.. note:: docker options are indicated in the env_make file
+**Note:** docker options are indicated in the env_make file
 
-.. warning:: no data (docs/artefacts) are persistent when stopping the docker container. Volumes must be used to do so.
+**Warning:** no data (docs/artefacts) are persistent when stopping the docker container. Volumes must be used to do so.
 
 
 Persistent Data Storage
