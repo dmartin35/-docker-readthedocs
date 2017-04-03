@@ -2,10 +2,11 @@ PORTS = \
     -p 80:80 \
     -p 9001:9001
 
-VOLUMES = \
-    -v rtd:/opt/readthedocs.org \
-    -v db:/var/lib/pgsql/data \
-    -v es:/var/lib/elasticsearch
+VOLUMES =
+#VOLUMES = \
+#    -v rtd:/opt/readthedocs.org \
+#    -v db:/var/lib/pgsql/data \
+#    -v es:/var/lib/elasticsearch
 #    -v /var/log/docker:/var/log
 
 ENV = \
